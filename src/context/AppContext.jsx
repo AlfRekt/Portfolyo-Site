@@ -11,14 +11,8 @@ function appReducer(state, action) {
     case "TOGGLE_DARK_MODE":
       return { ...state, darkMode: !state.darkMode };
 
-    case "SET_DARK_MODE":
-      return { ...state, darkMode: action.payload };
-
     case "TOGGLE_LANGUAGE":
       return { ...state, language: state.language === "en" ? "tr" : "en" };
-
-    case "SET_LANGUAGE":
-      return { ...state, language: action.payload };
 
     default:
       return state;
