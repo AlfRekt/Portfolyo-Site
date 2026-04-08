@@ -6,12 +6,12 @@ export const data = {
       profileImage: "profile-image.jpg",
       socials: [
         {
-          logo: "../public/LinkedIn.svg",
+          logo: "/LinkedIn.svg",
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/alfredalig%C3%BClkan/",
         },
         {
-          logo: "../public/github.svg",
+          logo: "/github.svg",
           alt_text: "github",
           link: "https://github.com/AlfRekt",
         },
@@ -22,12 +22,12 @@ export const data = {
     skillsSection: {
       title: "Skills",
       skills: [
-        { name: "JavaScript", icon: "../public/js-logo.png" },
-        { name: "React",      icon: "../public/react-logo.png" },
-        { name: "Redux",      icon: "../public/redux-logo.png" },
-        { name: "Node",       icon: "../public/node-logo.png" },
-        { name: "VS Code",    icon: "../public/vscode.png" },
-        { name: "Figma",      icon: "../public/figma-logo.png" },
+        { name: "JavaScript", icon: "/js-logo.png" },
+        { name: "React",      icon: "/react-logo.png" },
+        { name: "Redux",      icon: "/redux-logo.png" },
+        { name: "Node",       icon: "/node-logo.png" },
+        { name: "VS Code",    icon: "/vscode.png" },
+        { name: "Figma",      icon: "/figma-logo.png" },
       ],
     },
     profileSection: {
@@ -71,7 +71,7 @@ export const data = {
             title: "Go to app →",
             URL: "/app.api",
           },
-          screenshot: "../public/project1.png", // public klasörüne ekle
+          screenshot: "/project1.png", // public klasörüne ekle
         },
         {
           id: 2,
@@ -84,7 +84,7 @@ export const data = {
             title: "Go to app →",
             URL: "/app.api",
           },
-          screenshot: "../public/project2.png",
+          screenshot: "/project2.png",
         },
       ],
     },
@@ -121,12 +121,12 @@ export const data = {
       profileImage: "profile-image.jpg",
       socials: [
         {
-          logo: "../public/LinkedIn.svg",
+          logo: "/LinkedIn.svg",
           alt_text: "linkedin",
           link: "https://www.linkedin.com/in/alfredalig%C3%BClkan/",
         },
         {
-          logo: "../public/github.svg",
+          logo: "/github.svg",
           alt_text: "github",
           link: "https://github.com/AlfRekt",
         },
@@ -137,12 +137,12 @@ export const data = {
     skillsSection: {
       title: "Yetenekler",
       skills: [
-        { name: "JavaScript", icon: "../public/js-logo.png" },
-        { name: "React",      icon: "../public/react-logo.png" },
-        { name: "Redux",      icon: "../public/redux-logo.png" },
-        { name: "Node",       icon: "../public/node-logo.png" },
-        { name: "VS Code",    icon: "../public/vscode.png" },
-        { name: "Figma",      icon: "../public/figma-logo.png" },
+        { name: "JavaScript", icon: "/js-logo.png" },
+        { name: "React",      icon: "/react-logo.png" },
+        { name: "Redux",      icon: "/redux-logo.png" },
+        { name: "Node",       icon: "/node-logo.png" },
+        { name: "VS Code",    icon: "/vscode.png" },
+        { name: "Figma",      icon: "/figma-logo.png" },
       ],
     },
     profileSection: {
@@ -185,7 +185,7 @@ export const data = {
             title: "Uygulamaya Git →",
             URL: "/app.api",
           },
-          screenshot: "../public/project1.png", // public klasörüne ekle
+          screenshot: "/project1.png", // public klasörüne ekle
         },
         {
           id: 2,
@@ -198,7 +198,7 @@ export const data = {
             title: "Uygulamaya Git →",
             URL: "/app.api",
           },
-          screenshot: "../public/project2.png",
+          screenshot: "/project2.png",
         },
       ],
     },
