@@ -74,6 +74,7 @@ intensive Workintech frontend development program.`
             "Designed and built a secure, layered REST API replicating a Twitter-style social platform, using Spring Boot, Spring Data JPA, and PostgreSQL.",
           tags: ["java", "spring boot", "postgresql", "junit5"],
           github: "View On Github",
+          githubURL: "https://github.com/AlfRekt/twitter-api",
           app: {
             title: "Go to app →",
             URL: "/app.api",
@@ -87,6 +88,7 @@ intensive Workintech frontend development program.`
             "Built a React-based pizza ordering platform with complex state management for customizable orders, ingredient selection constraints, and real-time pricing updates.",
           tags: ["react", "axios", "router", "vercel"],
           github: "View On Github",
+          githubURL: "https://github.com/AlfRekt/fsweb-s8-challenge-pizza",
           app: {
             title: "Go to app →",
             URL: "/app.api",
@@ -194,6 +196,7 @@ intensive Workintech frontend development program.`
             "Spring Boot, Spring Data JPA ve PostgreSQL kullanarak Twitter benzeri bir sosyal platformu taklit eden güvenli, katmanlı bir REST API tasarladım ve geliştirdim.",
           tags: ["java", "spring boot", "postgresql", "junit5"],
           github: "Github'da Göster",
+          githubURL: "https://github.com/AlfRekt/twitter-api",
           app: {
             title: "Uygulamaya Git →",
             URL: "/app.api",
@@ -207,6 +210,7 @@ intensive Workintech frontend development program.`
             "Özelleştirilebilir siparişler, malzeme seçimi kısıtlamaları ve gerçek zamanlı fiyat güncellemeleri için karmaşık durum yönetimine sahip, React tabanlı bir pizza sipariş platformu geliştirdim.",
           tags: ["react", "axios", "router", "vercel"],
           github: "Github'da Göster",
+          githubURL: "https://github.com/AlfRekt/fsweb-s8-challenge-pizza",
           app: {
             title: "Uygulamaya Git →",
             URL: "/app.api",

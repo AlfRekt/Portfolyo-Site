@@ -83,6 +83,7 @@ function ProjectCard({ project, darkMode, language }) {
         {/* Linkler */}
         <div className="flex justify-between items-center mt-2">
           <a
+            href={project.githubURL}
             target="_blank"
             rel="noreferrer"
             className={`text-[20px] !no-underline !font-semibold hover:underline ${
