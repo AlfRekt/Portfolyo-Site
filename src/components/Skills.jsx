@@ -30,9 +30,9 @@ export default function Skills() {
                 }`}
               >
                 <img
-                  src={`/${skill.icon}`}
+                  src={skill.icon.startsWith("http") ? skill.icon : `/${skill.icon}`}
                   alt={skill.name}
-                  className="object-contain"
+                  className="object-contain w-12 h-12 md:w-16 md:h-16"
                 />
               </div>
               <span

@@ -2,7 +2,7 @@ export const data = {
   en: {
     heroSection: {
       greeting: "Hi! 👋",
-      intro: "I'm Almila. I'm a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
+      intro: "I'm Alfred. I'm a full-stack developer. I can craft solid and scalable fullstack products. Let's meet!",
       profileImage: "profile-image.jpg",
       socials: [
         {
@@ -17,7 +17,7 @@ export const data = {
         },
       ],
       ctaHTML:
-        "Currently <span style='color: #AF0C48'>Freelancing</span> for <span style='color: #AF0C48'>UX, UI, & Web Design</span> Project. <br> Invite me to join your team → <a href='mailto:pratamaiosi@gmail.com' style='color: #AF0C48'>pratamaiosi@gmail.com</a>",
+        "Currently <span style='color: #AF0C48'>Freelancing</span> for <span style='color: #AF0C48'>UX, UI, & Web Design</span> Project. <br> Invite me to join your team → <a href='mailto:alfredaligulkan@gmail.com' style='color: #AF0C48'>alfredaligulkan@gmail.com</a>",
     },
     skillsSection: {
       title: "Skills",
@@ -28,6 +28,12 @@ export const data = {
         { name: "Node",       icon: "node-logo.png" },
         { name: "VS Code",    icon: "vscode.png" },
         { name: "Figma",      icon: "figma-logo.png" },
+        { name: "Java",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+        { name: "PostgreSQL",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+        { name: "Tailwind",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+        { name: "Git",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "Axios",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" },
       ],
     },
     profileSection: {
@@ -36,25 +42,26 @@ export const data = {
         title: "Basic Information",
         dateOfBirth: {
           title: "Date of Birth",
-          date: "24.03.1996"
+          date: "11.12.2003"
         },
         residence: {
           title: "Residence",
-          city: "Ankara",
+          city: "İstanbul",
         },
         degree: {
           title: "Lisance Degree",
-          city: "Hacettepe Ünv. Biyoloji Lisans, 2016",
+          city: "Nişantaşı Ünv. Game Design, 2025",
         },
         position: {
           title: "Preferred Position",
-          position: "Frontend, UI"
+          position: "Back End"
         }
       },
       aboutMe: {
         title: "About Me",
-        text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.
-        Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! `
+        text: `I am an aspiring fullstack developer with a growth mindset to acquire new skills and continuously develop myself with new challenges. After graduated from Game Development department, I decided to fulfill my childhood dream  to become a  
+software developer and improve myself in back end by completing a 6-month 
+intensive Workintech frontend development program.`
       }
     },
     projectsSection: {
@@ -62,10 +69,10 @@ export const data = {
       projects: [
         {
           id: 1,
-          name: "Random Jokes",
+          name: "Twitter API",
           description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-          tags: ["react", "vercel", "axios", "router"],
+            "Designed and built a secure, layered REST API replicating a Twitter-style social platform, using Spring Boot, Spring Data JPA, and PostgreSQL.",
+          tags: ["java", "spring boot", "postgresql", "junit5"],
           github: "View On Github",
           app: {
             title: "Go to app →",
@@ -75,10 +82,10 @@ export const data = {
         },
         {
           id: 2,
-          name: "Are you bored?",
+          name: "Pizza Ordering Platform",
           description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate?",
-          tags: ["react", "redux", "axios", "router", "vercel"],
+            "Built a React-based pizza ordering platform with complex state management for customizable orders, ingredient selection constraints, and real-time pricing updates.",
+          tags: ["react", "axios", "router", "vercel"],
           github: "View On Github",
           app: {
             title: "Go to app →",
@@ -117,7 +124,7 @@ export const data = {
   tr: {
     heroSection: {
       greeting: "Merhaba! 👋",
-      intro: "Ben Almila. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri üretebiliyorum. Tanışalım!",
+      intro: "Ben Alfred. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir full-stack ürünleri üretebiliyorum. Tanışalım!",
       profileImage: "profile-image.jpg",
       socials: [
         {
@@ -132,7 +139,7 @@ export const data = {
         },
       ],
       ctaHTML:
-        "Şu an <span style='color: #AF0C48'>Serbest Çalışıyorum</span>, <span style='color:#AF0C48'>UX, UI ve Web Tasarım</span> projeleri için. <br> Ekibinize katılmamı istiyorsanız → <a href='mailto:pratamaiosi@gmail.com' style='color: #AF0C48'>pratamaiosi@gmail.com</a>",
+        "Şu an <span style='color: #AF0C48'>Serbest Çalışıyorum</span>, <span style='color:#AF0C48'>UX, UI ve Web Tasarım</span> projeleri için. <br> Ekibinize katılmamı istiyorsanız → <a href='mailto:alfredaligulkan@gmail.com' style='color: #AF0C48'>alfredaligulkan@gmail.com</a>",
     },
     skillsSection: {
       title: "Yetenekler",
@@ -143,6 +150,12 @@ export const data = {
         { name: "Node",       icon: "node-logo.png" },
         { name: "VS Code",    icon: "vscode.png" },
         { name: "Figma",      icon: "figma-logo.png" },
+        { name: "Java",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+        { name: "PostgreSQL",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+        { name: "Tailwind",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+        { name: "Git",         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "Axios",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" },
       ],
     },
     profileSection: {
@@ -151,7 +164,7 @@ export const data = {
         title: "Basit Bilgilendirme",
         dateOfBirth: {
           title: "Doğum Tarihi",
-          date: "24.03.1996"
+          date: "11.12.2003"
         },
         residence: {
           title: "İkamet Şehri",
@@ -159,16 +172,16 @@ export const data = {
         },
         degree: {
           title: "Eğitim Durumu",
-          city: "Hacettepe Ünv. Biyoloji Lisans, 2016",
+          city: "Nişantaşı Ünv. Dijital Oyun Tasarımı, 2025",
         },
         position: {
           title: "Tercih Ettiği Rol",
-          position: "Frontend, UI"
+          position: "Back End"
         }
       },
       aboutMe: {
         title: "Hakkımda",
-        text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! `
+        text: `Yeni beceriler edinme ve sürekli olarak yeni zorluklarla kendimi geliştirme konusunda büyüme odaklı bir zihniyete sahip, gelecek vadeden bir fullstack geliştiriciyim. Oyun Geliştirme bölümünden mezun olduktan sonra, çocukluk hayalimi gerçekleştirmeye ve yazılım geliştirici olmaya karar verdim ve 6 aylık yoğun bir Workintech frontend geliştirme programını tamamlayarak backend alanında kendimi geliştirdim.`
       }
     },
     projectsSection: {
@@ -176,10 +189,10 @@ export const data = {
       projects: [
         {
           id: 1,
-          name: "Rastgele Şakalar",
+          name: "Twitter API",
           description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-          tags: ["react", "vercel", "axios", "router"],
+            "Spring Boot, Spring Data JPA ve PostgreSQL kullanarak Twitter benzeri bir sosyal platformu taklit eden güvenli, katmanlı bir REST API tasarladım ve geliştirdim.",
+          tags: ["java", "spring boot", "postgresql", "junit5"],
           github: "Github'da Göster",
           app: {
             title: "Uygulamaya Git →",
@@ -189,10 +202,10 @@ export const data = {
         },
         {
           id: 2,
-          name: "Sıkıldın Mı?",
+          name: "Pizza Sipariş Platformu",
           description:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate?",
-          tags: ["react", "redux", "axios", "router", "vercel"],
+            "Özelleştirilebilir siparişler, malzeme seçimi kısıtlamaları ve gerçek zamanlı fiyat güncellemeleri için karmaşık durum yönetimine sahip, React tabanlı bir pizza sipariş platformu geliştirdim.",
+          tags: ["react", "axios", "router", "vercel"],
           github: "Github'da Göster",
           app: {
             title: "Uygulamaya Git →",
