@@ -24,6 +24,8 @@ function ProjectCard({ project, darkMode, language }) {
         </div>,
         { autoClose: 5000 }
       );
+
+      window.open(project.app.URL, "_blank", "noopener,noreferrer");
     } else {
       console.log(result.error);
       toast.error(

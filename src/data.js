@@ -91,7 +91,7 @@ intensive Workintech frontend development program.`
           githubURL: "https://github.com/AlfRekt/fsweb-s8-challenge-pizza",
           app: {
             title: "Go to app →",
-            URL: "/app.api",
+            URL: "https://fsweb-s8-challenge-pizza-ashy.vercel.app/",
           },
           screenshot: "project2.png",
         },
@@ -213,7 +213,7 @@ intensive Workintech frontend development program.`
           githubURL: "https://github.com/AlfRekt/fsweb-s8-challenge-pizza",
           app: {
             title: "Uygulamaya Git →",
-            URL: "/app.api",
+            URL: "https://fsweb-s8-challenge-pizza-ashy.vercel.app/",
           },
           screenshot: "project2.png",
         },
